@@ -8,6 +8,7 @@ Python projects completed as part of the Datheon Python Programming Internship.
 |------|---------|--------|
 | 1 | Hangman Word Guessing Game (Console) | `Task1_Hangman/` |
 | 2 | Stock Portfolio Performance Tracker | `Task2_Portfolio/` |
+| 3 | Automated File Organizer & Cleanup Utility | `Task3_Organizer/` |
 
 ## Task 1: Hangman Word Guessing Game
 
@@ -44,6 +45,23 @@ cd Task2_Portfolio
 python portfolio.py
 ```
 
+## Task 3: Automated File Organizer & Cleanup Utility
+
+A script that sorts a cluttered folder (e.g. Downloads) into category subfolders.
+
+**Features**
+- Checks each file's extension and moves it into `Documents`, `Images`, `Videos`, `Archives` or `Code` using `os.scandir()` and `shutil.move()`
+- Previews the changes (dry run) and asks for confirmation before moving anything
+- Handles naming collisions by renaming (e.g. `report_1.pdf`) and handles permission errors
+- Leaves unknown file types and existing subfolders untouched
+- Logs every action to `organizer.log` and prints an execution summary
+
+**Run**
+```
+cd Task3_Organizer
+python organizer.py
+```
+
 ## Requirements
 
 - Python 3 (standard library only, no extra packages needed)
@@ -52,6 +70,7 @@ python portfolio.py
 
 Swathi R  
 GitHub: https://github.com/swathi010907
+
 ## License
 
 This project is licensed under the MIT License.
