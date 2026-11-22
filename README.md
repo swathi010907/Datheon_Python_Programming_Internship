@@ -51,8 +51,7 @@ python portfolio.py
 ## Author
 
 Swathi R  
-GitHub: [swathi010907](https://github.com/swathi010907)
-
+GitHub: https://github.com/swathi010907
 ## License
 
 This project is licensed under the MIT License.
